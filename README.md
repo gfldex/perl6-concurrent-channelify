@@ -34,6 +34,10 @@ Return a new lazy list that is turned into a `Channel`. If `no-thread` is
 `RAKUDO_MAX_THREAD` with a value smaller then 2 has the same effect then
 `no-thread`, if set before the use-statement is executed.
 
+The channel can be accessed by calling the mixed in method `channel`. Closing
+the channel will force the lazy list to stop producing values and kill the
+associated thread.
+
 ### postfix ⇒
 
 see `sub channelify`
