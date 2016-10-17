@@ -1,7 +1,7 @@
 # Concurrent::Channelify
 [![Build Status](https://travis-ci.org/gfldex/perl6-concurrent-channelify.svg?branch=master)](https://travis-ci.org/gfldex/perl6-concurrent-channelify)
 
-Turn a lazy list into a auto-threading lazy list.
+Turn a lazy list into an auto-threading lazy list.
 
 # SYNOPSIS
 
