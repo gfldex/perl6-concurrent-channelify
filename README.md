@@ -38,6 +38,8 @@ The channel can be accessed by calling the mixed in method `channel`. Closing
 the channel will force the lazy list to stop producing values and kill the
 associated thread.
 
+To query if a thread was started call the mixed in method `no-thread`.
+
 ### postfix ⇒
 
 see `sub channelify`
