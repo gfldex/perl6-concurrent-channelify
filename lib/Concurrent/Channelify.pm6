@@ -26,7 +26,6 @@ sub channelify-no-thread(\l, :$no-thread){
 }
 
 sub EXPORT {
-    say 'EXPORT ', %*ENV<RAKUDO_MAX_THREADS>.?Int;
     {
         '&channelify' => (%*ENV<RAKUDO_MAX_THREADS>:!exists || %*ENV<RAKUDO_MAX_THREADS>.Int > 1) ?? &channelify !! &channelify-no-thread
     }
