@@ -30,3 +30,5 @@ Return a new lazy list that is turned into a `Channel`. If `no-thread` is
 
 ### postfix ⇒
 
+see `sub channelify`
+
