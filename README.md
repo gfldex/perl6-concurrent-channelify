@@ -15,6 +15,12 @@ for my $c := channelify(l1) {
     $c.channel.close if $_ > 10_010_000;
     say $_
 }
+
+my \l2 = <a b c>;
+
+for l2⇒ {
+    say $_
+}
 ```
 
 # DESCRIPTION
