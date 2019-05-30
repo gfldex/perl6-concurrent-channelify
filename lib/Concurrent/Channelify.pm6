@@ -12,7 +12,10 @@ sub channelify(Positional:D \list, :$no-thread) {
             }
             LEAVE $channel.close unless $channel.closed;
         }
-        return $channel.list but role :: { method channel { $channel }; method no-thread { False } }
+        return $channel but role :: {
+            method channel { $channel }
+            method no-thread { False }
+        };
     }
 }
 

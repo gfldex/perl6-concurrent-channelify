@@ -10,7 +10,7 @@
   "depends" : [ ],
   "description" : "turn a lazy list into an auto-threading lazy list",
   "test-depends" : [ ],
-  "version" : "0.0.1",
+  "version" : "0.1.0",
   "authors" : [
     "Wenzel P. P. Peppmeyer"
   ]
